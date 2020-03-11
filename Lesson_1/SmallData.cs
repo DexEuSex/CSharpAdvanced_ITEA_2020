@@ -34,7 +34,16 @@ namespace Lesson_1
             ProgVersion = progVers;
         }
 
+        public void BlackLoang(bool Condition)
+        {
+            Condition = true;
+        }
+        public float Report(bool Condition)
+        {
+            int Base = 0;
 
+            return (Condition == true ? Base + 50 : Base);
+        }
 
     }
 }
