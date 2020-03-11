@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lesson_1
 {
-    class SmallData
+    class SmallData : BigData
     {
         public SmallData something;
 
@@ -43,6 +43,15 @@ namespace Lesson_1
             int Base = 0;
 
             return (Condition == true ? Base + 50 : Base);
+        }
+        public override void CreateCells(int HowMany)
+        {
+            Console.WriteLine("FazBear");
+        }
+
+        public override void GenerateList(string toList)
+        {
+            Console.WriteLine(toList);
         }
 
     }
