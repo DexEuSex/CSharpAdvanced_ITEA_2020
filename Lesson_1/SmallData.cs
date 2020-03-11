@@ -10,6 +10,10 @@ namespace Lesson_1
 
         private int ProgVersion;
 
+        public static int counter; 
+
+        public string Pikaboo { get; set; } = "pikaBoO";
+
         protected SmallData Something
         {
             get
@@ -31,6 +35,7 @@ namespace Lesson_1
 
         public SmallData(int progVers)
         {
+            counter++;
             ProgVersion = progVers;
         }
 
