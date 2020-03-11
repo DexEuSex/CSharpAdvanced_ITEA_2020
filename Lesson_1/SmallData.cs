@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lesson_1
 {
-    class SmallData : BigData
+    class SmallData : BigData, DataInterface
     {
         public SmallData something;
 
@@ -52,6 +52,16 @@ namespace Lesson_1
         public override void GenerateList(string toList)
         {
             Console.WriteLine(toList);
+        }
+
+        public void DoABubbleBoo()
+        {
+            Console.WriteLine("Boo"); 
+        }
+        public bool BoABubbleDoo()
+        {
+            Console.WriteLine("DoDoDoDo");
+            return true;
         }
 
     }
