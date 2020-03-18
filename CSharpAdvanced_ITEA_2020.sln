@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_1", "Lesson_1\Lesson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text correction program", "Text correction program\Text correction program.csproj", "{DF4CF848-FBAB-4EF8-8217-CF60070CE093}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_2", "Lesson_2\Lesson_2.csproj", "{F529B51D-D16E-4777-8DA8-C633DBA6BA96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DF4CF848-FBAB-4EF8-8217-CF60070CE093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF4CF848-FBAB-4EF8-8217-CF60070CE093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF4CF848-FBAB-4EF8-8217-CF60070CE093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F529B51D-D16E-4777-8DA8-C633DBA6BA96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F529B51D-D16E-4777-8DA8-C633DBA6BA96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F529B51D-D16E-4777-8DA8-C633DBA6BA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F529B51D-D16E-4777-8DA8-C633DBA6BA96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
